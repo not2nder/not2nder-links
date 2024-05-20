@@ -1,0 +1,174 @@
+@import 'variables.css';
+
+button.primary, div.pinned, div.yt{
+    background-color: var(--button-color);
+    color: var(--white);
+    border-radius: 10px;
+
+    height:65px;
+    font-size: 18px;
+
+    transition: background-color .2s ease-in-out;
+    cursor: pointer;
+}
+
+button.primary a {
+    text-decoration: none;
+    font-size: large;
+    transition: all .2s ease-in-out;
+}
+
+button.primary:hover{
+    background-color: transparent;
+    border: solid 2px var(--black);
+}
+
+button.primary a:hover {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+button.primary, div.pinned, div.yt{
+    width: 100%;
+}
+
+button.secondary {
+    background-color: var(--white);
+    color: var(--black);
+    height: 50px;
+    width: 110px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+div.pinned {
+    height: 30vh;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+
+    transition: all .5s ease-in-out;
+
+    background-image: linear-gradient(to bottom, transparent 40%, var(--black) 160%), url('https://i.scdn.co/image/ab67616d0000b273f121f08edc802ab1a4872419');
+    background-size: 100%;
+    background-position: center center;
+}
+
+div.pinned:hover {
+    background-size: 110%;
+}
+
+.pinned .text {
+    margin: 18px;
+}
+
+.pinned a {
+    font-size: 18px;
+}
+
+div.yt a:hover {
+    text-decoration: underline;
+}
+
+div.yt {
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yt .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframe-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+iframe {
+    margin: 10px;
+    clip-path: inset(0% 0% 0% 0% round 5px);
+} */
+
+.yt .bottom {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-block: 10px;
+}
+
+.yt .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-block: 8px;
+}
+
+.yt .top p {
+    font-size: small;
+}
+
+div.yt .bottom img {
+    height: 52px;
+    /* margin: 0;
+    margin-top: 3px; */
+
+    border-radius: 100%;
+}
+
+div.yt img.video-card {
+    border-radius: 10px;
+    margin: 4px;
+    width: 320px;
+}
+
+div.yt a {
+    text-decoration: none;
+    font-size: 14px;
+
+    font-weight: 400;
+    color: var(--grey);
+}
+
+div.left {
+    display: flex;
+    gap: 10px;
+
+    margin-left: 10px;
+}
+
+/* gambiarra */
+.yt button.secondary {
+    margin-right: 12px;
+}
+
+button.secondary:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+div.yt .left {
+    display: flex;
+    align-items: center;
+}
+
+.social a:active {
+    filter: brightness(0.9);
+}
+
+.pinned .text p {
+    display: flex;
+    gap: 8px;
+}

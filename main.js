@@ -1,6 +1,6 @@
-import './global/global.css'
-import { getSubs } from './counter.js'
-import { getPfp } from './getPfp.js'
+import './src/styles/global/global.css'
+import { getSubs } from './src/js/counter.js'
+import { getProfile } from './src/js/getProfile.js'
 
 document.querySelector('#app').innerHTML = `
 <main>
@@ -66,4 +66,4 @@ document.querySelector('#app').innerHTML = `
 </main>
 `
 getSubs(document.querySelector("#subs"))
-getPfp(document.querySelector("#yt-image"))
+getProfile(document.querySelector("#yt-image"))

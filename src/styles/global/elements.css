@@ -3,13 +3,17 @@
 button.primary, div.pinned, div.yt{
     background-color: var(--button-color);
     color: var(--white);
-    border-radius: 14px;
+    border-radius: 4px;
 
     height:65px;
     font-size: 18px;
 
     transition: background-color .2s ease-in-out;
     cursor: pointer;
+}
+
+div.yt {
+    border-radius: 14px;
 }
 
 button.primary a {
@@ -65,8 +69,8 @@ div.pinned:hover {
     margin: 18px;
 }
 
-.pinned a {
-    font-size: 18px;
+.pinned a, p {
+    font-size: 15px;
 }
 
 div.yt a:hover {
@@ -87,12 +91,6 @@ div.yt {
     align-items: center;
 }
 
-.iframe-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 /* 
 iframe {
     margin: 10px;
@@ -121,17 +119,31 @@ iframe {
 }
 
 div.yt .bottom img {
-    height: 52px;
+    height: 44px;
     /* margin: 0;
     margin-top: 3px; */
 
     border-radius: 100%;
 }
 
+.iframe p {
+    text-overflow: ellipsis;
+}
+
+.iframe-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding-inline: 12px;
+}
+
 div.yt img.video-card {
     border-radius: 10px;
     margin: 4px;
-    width: 320px;
+    width: 40vh;
 }
 
 div.yt a {
@@ -171,4 +183,23 @@ div.yt .left {
 .pinned .text p {
     display: flex;
     gap: 8px;
+}
+
+dialog {
+    background-color: transparent;
+    border: none;
+    display: grid;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 /.6);
+}
+
+dialog i {
+    margin: 15px;
 }

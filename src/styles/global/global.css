@@ -36,7 +36,7 @@ a {
     background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab6761670000ecd4cad10c619039e53c35dfc869');
     background-size: cover;
     background-position: center center;
-    height: 40vh;
+    height: 51vh;
 
     display: flex;
     flex-direction: column;
@@ -55,6 +55,8 @@ a {
 
     margin-top: 5px;
     gap:10px;
+
+    padding-bottom: 35px;
 }
 
 .pinned .services {
@@ -80,7 +82,7 @@ a {
 @media screen and (min-width: 992px) {
     main {
         background-color: var(--background-color);
-        padding-inline: 31vw;
+        padding-inline: 29vw;
         padding-block: 12px;
     }
     div.head {
@@ -93,7 +95,7 @@ a {
     }
 
     div.pinned {
-        height: 42vh;
+        height: 46vh;
         border-radius: 22px;
     }
 

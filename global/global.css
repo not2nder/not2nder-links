@@ -66,15 +66,14 @@ a {
     width: 26px;
 }
 
+.yt .bottom .left p {
+    font-size: 12px;
+}
+
 .yt .bottom .left a.channel {
     display: flex;
     align-items: center;
     gap: 2px;
-}
-
-.yt .bottom .left {
-    display: flex;
-    flex-direction: column;
 }
 
 @media screen and (min-width: 992px) {

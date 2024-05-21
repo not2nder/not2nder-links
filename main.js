@@ -20,19 +20,9 @@ document.querySelector('#app').innerHTML = `
     <!-- fist item on top -->
     <div class="pinned">
         <div class="text">
-            <p><i class="fa-solid fa-thumbtack"></i>New Release!</p>
-            <div class="services">
-                <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">
-                    <img src="./img/spotify_icon.png">
-                </a>
-                <a href="https://music.apple.com/us/album/unfortunately-its-over-single/1747254163" target="_blank">
-                    <img src="./img/apple_icon.png">
-                </a>
-                <a href="https://www.youtube.com/watch?v=ZoNWvDwfSBM" target="_blank">
-                    <img src="./img/youtube_icon.png">
-                </a>
-            </div>
-            <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">Unfortunately, it's over</a>
+            <p><i class="fa-solid fa-thumbtack"></i>New Release!
+            </p>
+            <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">Unfortunately, it's over </a>
         </div>
     </div>
     <div class="yt">

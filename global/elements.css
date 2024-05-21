@@ -3,7 +3,7 @@
 button.primary, div.pinned, div.yt{
     background-color: var(--button-color);
     color: var(--white);
-    border-radius: 10px;
+    border-radius: 14px;
 
     height:65px;
     font-size: 18px;
@@ -37,13 +37,13 @@ button.secondary {
     color: var(--black);
     height: 50px;
     width: 110px;
-    border-radius: 8px;
+    border-radius: 50px;
     font-weight: 500;
 }
 
 div.pinned {
-    height: 30vh;
-    border-radius: 15px;
+    height: 33vh;
+    border-radius: 25px;
 
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ div.pinned {
 
     transition: all .5s ease-in-out;
 
-    background-image: linear-gradient(to bottom, transparent 40%, var(--black) 160%), url('https://i.scdn.co/image/ab67616d0000b273f121f08edc802ab1a4872419');
+    background-image: linear-gradient(to bottom, transparent 20%, var(--black) 160%), url('https://i.scdn.co/image/ab67616d0000b273f121f08edc802ab1a4872419');
     background-size: 100%;
     background-position: center center;
 }

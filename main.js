@@ -17,9 +17,20 @@ document.querySelector('#app').innerHTML = `
 </div>
 <div class="buttons">
     <!-- fist item on top -->
-    <div class="pinned" onclick="window.open('https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW')">
+    <div class="pinned">
         <div class="text">
             <p><i class="fa-solid fa-thumbtack"></i>New Release!</p>
+            <div class="services">
+                <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">
+                    <img src="./img/spotify_icon.png">
+                </a>
+                <a href="https://music.apple.com/us/album/unfortunately-its-over-single/1747254163" target="_blank">
+                    <img src="./img/apple_icon.png">
+                </a>
+                <a href="https://www.youtube.com/watch?v=ZoNWvDwfSBM" target="_blank">
+                    <img src="./img/youtube_icon.png">
+                </a>
+            </div>
             <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">Unfortunately, it's over</a>
         </div>
     </div>
@@ -34,10 +45,10 @@ document.querySelector('#app').innerHTML = `
         <div class="bottom" onclick="window.open('https://youtube.com/@not2nder')">
             <div class="left">
                 <img src="https://yt3.googleusercontent.com/rmegHGnykByX92YoT4InWFxTrEKvNhJBHcjYkqkKO6xmgDTCiA6ZgbSvVPNZgQh7a9aG3SYcDg=s160-c-k-c0x00ffffff-no-rj" alt="">
-                <a href="https://www.youtube.com/@not2nder" target="_blank">
-                @not2nder<br>
+                <a class="channel" href="https://www.youtube.com/@not2nder" target="_blank">
+                @not2nder <svg width="13px" fill="#AAAAAA" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z"></path></svg><br>
                 <div id="carry">
-                  <p id="subs"></p>
+                    <p id="subs"></p>
                 </div>
                 </a>
             </div>

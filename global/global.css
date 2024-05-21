@@ -56,6 +56,22 @@ a {
     gap: 8px;
 }
 
+.pinned .services {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.pinned .services img {
+    width: 26px;
+}
+
+.yt .bottom .left a.channel {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
 @media screen and (min-width: 992px) {
     main {
         background-color: var(--background-color);
@@ -80,4 +96,9 @@ a {
         gap: 14px;
         padding-inline: 0;
     }
+
+    .pinned .services img {
+        width: 32px;
+    }
+    
 }

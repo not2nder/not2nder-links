@@ -36,7 +36,7 @@ a {
     background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab6761670000ecd4cad10c619039e53c35dfc869');
     background-size: cover;
     background-position: center center;
-    height: 51vh;
+    height: 48vh;
 
     display: flex;
     flex-direction: column;

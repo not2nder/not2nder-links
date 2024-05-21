@@ -1,5 +1,6 @@
 import './global/global.css'
 import { getSubs } from './counter.js'
+import { getPfp } from './getPfp.js'
 
 document.querySelector('#app').innerHTML = `
 <main>
@@ -44,7 +45,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="bottom" onclick="window.open('https://youtube.com/@not2nder')">
             <div class="left">
-                <img src="https://yt3.googleusercontent.com/rmegHGnykByX92YoT4InWFxTrEKvNhJBHcjYkqkKO6xmgDTCiA6ZgbSvVPNZgQh7a9aG3SYcDg=s160-c-k-c0x00ffffff-no-rj" alt="">
+                <img id="yt-image" src="" alt="">
                     <div class="name">
                     <a class="channel" href="https://www.youtube.com/@not2nder" target="_blank">
                         @not2nder <svg width="13px" fill="#AAAAAA" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z"></path></svg>
@@ -75,3 +76,4 @@ document.querySelector('#app').innerHTML = `
 </main>
 `
 getSubs(document.querySelector("#subs"))
+getPfp(document.querySelector("#yt-image"))

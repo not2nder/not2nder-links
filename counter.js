@@ -4,5 +4,6 @@ export async function getSubs(element) {
   const res = await fetch(reqURL);
 
   const { subscriberCount } = (await res.json()).items[0].statistics;
+
   element.innerHTML = subscriberCount + " Subscribers";
 }

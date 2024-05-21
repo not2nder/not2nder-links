@@ -72,6 +72,11 @@ a {
     gap: 2px;
 }
 
+.yt .bottom .left {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 992px) {
     main {
         background-color: var(--background-color);

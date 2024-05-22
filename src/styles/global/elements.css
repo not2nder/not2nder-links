@@ -43,6 +43,21 @@ button.secondary {
     font-weight: 500;
 }
 
+button.primary a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+button a svg {
+    transition: all .2s ease-in-out;
+}
+
+button.primary a:hover svg {
+    fill: var(--black);
+}
+
 /* fixado */
 div.pinned {
     height: 33vh;

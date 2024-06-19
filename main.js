@@ -24,7 +24,7 @@ document.querySelector('#app').innerHTML = `
                 <h2>Upcoming Release!</h2>
             </div>
             <div class="center">
-                <img src="src/assets/Canva.webp" width=120 id="album-cover">
+                <img src="./src/assets/Canva.webp" width=120 id="album-cover">
             </div>
             <div class="bottom">
                 <div>

@@ -1,6 +1,7 @@
 import './src/styles/global/global.css'
 import { getSubs } from './src/js/counter.js'
 import { getProfile } from './src/js/getProfile.js'
+import './src/js/getDate.js'
 
 document.querySelector('#app').innerHTML = `
 <main>
@@ -19,29 +20,41 @@ document.querySelector('#app').innerHTML = `
     <div class="buttons">
         <!-- fist item on top -->
         <div class="pinned">
-            <div class="text">
-                <p>New Release!</p>
-                <a href="https://open.spotify.com/album/1Mkazs5hL3ILMQ2V3JCWLW" target="_blank">Unfortunately, it's over </a>
+            <div class="top">
+                <h2>Upcoming Release!</h2>
+            </div>
+            <div class="center">
+                <img src="src/assets/Canva.webp" width=120 id="album-cover">
+            </div>
+            <div class="bottom">
+                <div>
+                    <h2 id="days"></h2>
+                    <p>Days</p>
+                </div>
+                :
+                <div>
+                    <h2 id="hours"></h2>
+                    <p>Hours</p>
+                </div>
+                :
+                <div>
+                    <h2 id="mins"></h2>
+                    <p>Minutes</p>
+                </div>
+                :
+                <div>
+                    <h2 id="secs"></h2>
+                    <p>Seconds</p>
+                </div>
             </div>
         </div>
         <div class="yt">
-            <div class="top">
-                <i class="fa-brands fa-youtube"></i>
-                <p>Recommended by not2nder</p>
-            </div>
-            <div id="iframe-card" class="iframe-wrapper" onclick="window.open('https://www.youtube.com/watch?v=aZ3h14UdWoo')">
-                <img class="video-card" src="https://img.youtube.com/vi/aZ3h14UdWoo/maxresdefault.jpg" alt="Featured Video">
-                <div class="video-title">
-                    <p>BREAK TAPES: Cyberia Collection</p>
-                </div>
-            </div>
-
             <div class="bottom" onclick="window.open('https://youtube.com/@not2nder')">
                 <div class="left">
                     <img id="yt-image" src="" alt="">
                         <div class="name">
                         <a class="channel" href="https://www.youtube.com/@not2nder" target="_blank">
-                            @not2nder <svg width="13px" fill="#AAAAAA" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z"></path></svg>
+                            @not2nder
                         </a>
                         <div id="carry">
                             <p id="subs"></p>

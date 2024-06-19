@@ -60,31 +60,47 @@ button.primary a:hover svg {
 
 /* fixado */
 div.pinned {
-    height: 33vh;
-    border-radius: 25px;
+    height: 35vh;
+    border-radius: 10px;
 
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: end;
 
-    transition: all .5s ease-in-out;
+    align-items: center;
+    justify-content: stretch;
 
-    background-image: linear-gradient(to bottom, transparent 20%, var(--black) 160%), url('https://i.scdn.co/image/ab67616d0000b273f121f08edc802ab1a4872419');
-    background-size: 100%;
-    background-position: center center;
+    gap: 8px;
+    padding-block: 5px;
 }
 
-div.pinned:hover {
-    background-size: 110%;
+div.pinned h2 {
+    font-size: medium;
 }
 
-.pinned .text {
-    margin: 18px;
+div.pinned img {
+    border-radius: 5px;
 }
 
 .pinned a, p {
     font-size: 15px;
+}
+
+.pinned .bottom {
+    display: flex;
+    gap: 8px;
+}
+
+.pinned .bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pinned .bottom h2 {
+    font-weight: 500;
+    font-size: large;
+    margin: 0;
 }
 
 /* youtube */
@@ -94,6 +110,8 @@ div.yt {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    border-radius: 8px;
 }
 
 div.yt a:hover {

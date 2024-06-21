@@ -19,35 +19,6 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="buttons">
         <!-- fist item on top -->
-        <div class="pinned">
-            <div class="top">
-                <h2>Upcoming Release!</h2>
-            </div>
-            <div class="center">
-                <img src="./src/assets/Canva.webp" width=120 id="album-cover">
-            </div>
-            <div class="bottom">
-                <div>
-                    <h2 id="days"></h2>
-                    <p>Days</p>
-                </div>
-                :
-                <div>
-                    <h2 id="hours"></h2>
-                    <p>Hours</p>
-                </div>
-                :
-                <div>
-                    <h2 id="mins"></h2>
-                    <p>Minutes</p>
-                </div>
-                :
-                <div>
-                    <h2 id="secs"></h2>
-                    <p>Seconds</p>
-                </div>
-            </div>
-        </div>
         <div class="yt">
             <div class="bottom" onclick="window.open('https://youtube.com/@not2nder')">
                 <div class="left">

@@ -60,14 +60,14 @@ button.primary a:hover svg {
 
 /* fixado */
 div.pinned {
-    height: 35vh;
+    height: 31vh;
     border-radius: 10px;
 
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    justify-content: stretch;
+    justify-content: space-between;
 
     gap: 8px;
     padding-block: 5px;
@@ -83,6 +83,19 @@ div.pinned img {
 
 .pinned a, p {
     font-size: 15px;
+}
+
+.pinned .mid {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.pinned .mid img {
+    width: 29%;
+    border-radius: 4px;
+
 }
 
 .pinned .bottom {

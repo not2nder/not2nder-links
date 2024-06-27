@@ -19,6 +19,39 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="buttons">
         <!-- fist item on top -->
+        <div class="pinned">
+            <div class="top">
+                <h2>upcoming release!</h2>
+            </div>
+            <div class="mid">
+                <img src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F7129118--1FD897F7-447F-4926-8834A40AF6366D40--0--17108614--ARTWORKNONAMES.jpg?fm=jpg&q=75&w=800&s=efeabc79ac0dc19eb964fb350b00df33">
+                <div>
+                    <h2>decline friend request</h2>
+                    <a target="_blank" href="https://open.spotify.com/artist/4WB56sWCElzGrYSNcZgwro">not2nder</a>, <a target="_blank" href="https://open.spotify.com/artist/6wPviRJYfGannQEY6owpMm">gurowinter</a>
+                </div>
+                </div>
+            <div class="bottom">
+                <div>
+                    <h2 id="days"></h2>
+                    <p>Days</p>
+                </div>
+                :
+                <div>
+                    <h2 id="hours"></h2>
+                    <p>Hours</p>
+                </div>
+                :
+                <div>
+                    <h2 id="mins"></h2>
+                    <p>Minutes</p>
+                </div>
+                :
+                <div>
+                    <h2 id="secs"></h2>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
         <div class="yt">
             <div class="bottom" onclick="window.open('https://youtube.com/@not2nder')">
                 <div class="left">

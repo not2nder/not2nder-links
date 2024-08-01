@@ -37,7 +37,7 @@ a {
 }
 
 .head {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab67616d0000b273ba407bb3e28a6d25736309d1');
+    background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab6761610000e5eb0547959f12209eb4d9b5c320');
     background-size: cover;
     background-position: center center;
     height: 43vh;

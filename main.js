@@ -7,7 +7,7 @@ document.querySelector('#app').innerHTML = `
 <main>
     <div class="head">
         <h2>not2nder</h2>
-        <p style="color: var(--white);">Artist and Developer</p>
+        <p style="color: var(--black);">Artist and Developer</p>
         <div class="social">
             <a href="https://open.spotify.com/artist/4WB56sWCElzGrYSNcZgwro" target="_blank"><i class="fa-brands fa-spotify"></i></a>
             <a href="https://www.youtube.com/@not2nder" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
@@ -16,7 +16,6 @@ document.querySelector('#app').innerHTML = `
             <a href="https://instagram.com/2nder.dev" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/not2nder" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
-            <p style="color:white">email: lacosteandxr@gmail.com</p>
     </div>
     <div class="buttons">
         <div class="yt">
@@ -43,13 +42,6 @@ document.querySelector('#app').innerHTML = `
         <button class="primary" onclick="window.open('https://open.spotify.com/artist/4WB56sWCElzGrYSNcZgwro')">
             <a href="https://open.spotify.com/artist/4WB56sWCElzGrYSNcZgwro" target="_blank"><i class="fa-brands fa-spotify"></i> Ｓｐｏｔｉｆｙ - not2nder</a>
         
-        </button>
-                <button class="primary" onclick="window.open('https://music.apple.com/us/artist/not2nder/1735580732')">
-            <a href="https://music.apple.com/us/artist/not2nder/1735580732" target="_blank"><svg fill="var(--white)" height="18px" width="18px" viewBox="0 0 512 512"><path d="M503.319,5.939c-5.506-4.705-12.783-6.767-19.958-5.635L169.555,49.852c-12.04,1.901-20.909,12.28-20.909,24.47v99.097 v156.903H99.097C44.455,330.323,0,371.073,0,421.161C0,471.25,44.455,512,99.097,512c54.642,0,99.097-40.75,99.097-90.839v-66.065 V194.588l264.258-41.725v136.169h-49.548c-54.642,0-99.097,40.75-99.097,90.839s44.455,90.839,99.097,90.839 S512,429.959,512,379.871v-66.065V123.871V24.774C512,17.529,508.827,10.646,503.319,5.939z"></path></svg> 𝔸𝕡𝕡𝕝𝕖 𝕄𝕦𝕤𝕚𝕔 - 2NDER</a>
-        </button>
-        
-                <button class="primary" onclick="window.open('https://open.spotify.com/artist/6YoQ3aGaPzWtw6iUUXr5Og')">
-            <a href="https://open.spotify.com/artist/4WB56sWCElzGrYSNcZgwro" target="_blank"><i class="fa-brands fa-spotify"></i> Ｓｐｏｔｉｆｙ - 2NDER</a>
         </button>
         <button class="primary" onclick="window.open('https://music.apple.com/us/artist/not2nder/1735580732')">
             <a href="https://music.apple.com/us/artist/not2nder/1735580732" target="_blank"><svg fill="var(--white)" height="18px" width="18px" viewBox="0 0 512 512"><path d="M503.319,5.939c-5.506-4.705-12.783-6.767-19.958-5.635L169.555,49.852c-12.04,1.901-20.909,12.28-20.909,24.47v99.097 v156.903H99.097C44.455,330.323,0,371.073,0,421.161C0,471.25,44.455,512,99.097,512c54.642,0,99.097-40.75,99.097-90.839v-66.065 V194.588l264.258-41.725v136.169h-49.548c-54.642,0-99.097,40.75-99.097,90.839s44.455,90.839,99.097,90.839 S512,429.959,512,379.871v-66.065V123.871V24.774C512,17.529,508.827,10.646,503.319,5.939z"></path></svg> 𝔸𝕡𝕡𝕝𝕖 𝕄𝕦𝕤𝕚𝕔 - not2nder</a>

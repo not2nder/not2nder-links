@@ -37,7 +37,7 @@ a {
 }
 
 .head {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab6761610000e5eb0547959f12209eb4d9b5c320');
+    background-image: linear-gradient(to bottom, transparent 50%, var(--background-color) 100%), url('https://i.scdn.co/image/ab67616100005174196d4d2fcc3a5059565919d1');
     background-size: cover;
     background-position: center center;
     height: 43vh;
@@ -70,6 +70,10 @@ a {
     display: flex;
     align-items: center;
     gap: 2px;
+}
+
+.head a, h2 {
+    color: var(--black);
 }
 
 @media screen and (min-width: 992px) {
